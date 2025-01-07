@@ -128,55 +128,6 @@ document.getElementById("day").textContent = days + " day"
   </head>
   
   <body>
-    <h2>Jul 16 Theory</h2>
-    <a href="/">Go back</a>
-<div class="counter">
-            <span class="counter" id="sec"></span><br>
-            <span class="counter" id="min"></span><br>
-            <span class="counter" id="hrs"></span><br>
-            <span class="counter" id="day"></span><br>
-</div>
-    <br><br>
-    <a href="https://github.com/vvv112/hl3-countdown">source code</a>
-  </body>
-</html>667200 - currentdate
-    return Math.round(calculated)
-}
-
-function hrf() {
-    let input = calculatenyearremtime()
-     sec = input
-     min = Math.round(calculatenyearremtime() / 60 * 100) / 100
-     hours = Math.round(min / 60 * 100) / 100
-     days = Math.round(hours / 24 * 100) / 100
-
-    if (debug) {
-        console.log(sec + " " + min + " " + hours + " " + days)
-    }
-}
-
-// main
-var sec = 0
-var min = 0
-var hours = 0
-var days = 0
-
-var updatetimer = window.setInterval(function(){
-    cycle()
-  }, 1000);
-
-function cycle() {
-    hrf()
-// document.getElementById("counterbox").textContent = "Sec: " + sec + ". Min: " + min + ". hours: " + hours + ". Days: " + days
-document.getElementById("sec").textContent = sec + " sec"
-document.getElementById("min").textContent = min + " min"
-document.getElementById("hrs").textContent = hours + " hrs"
-document.getElementById("day").textContent = days + " day"
-} 
-    </script>
-  </head>
-  
-  <body>
     <h2>Jan 12 Theory</h2>
     <a href="/">Go back</a>
 <div class="counter">
